@@ -2,7 +2,7 @@ import csv
 
 #open input and output files
 csvfile = open('/Users/maryryan/Desktop/advanced-data-journalism/assignments/data-cleaning/data/cleanme.csv', 'r')
-outfile = open('/Users/maryryan/Desktop/code/data_cleaning_MaryRyan.csv', 'w')
+outfile = open('/Users/maryryan/Desktop/ADJ-assignments/data_cleaning_MaryRyan.csv', 'w')
 
 #DictReader and DictWriter
 reader = csv.DictReader(csvfile)
