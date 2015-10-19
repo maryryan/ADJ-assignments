@@ -9,7 +9,7 @@ sys.setdefaultencoding("utf-8")
 output = open('election2014.csv', 'w')
 writer = csv.writer(output)
 
-#get HTML of the page
+#open the page
 br = mechanize.Browser()
 br.open('http://enrarchives.sos.mo.gov/enrnet/')
 
