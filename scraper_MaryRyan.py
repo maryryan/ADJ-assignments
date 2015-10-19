@@ -16,9 +16,9 @@ br.open('http://enrarchives.sos.mo.gov/enrnet/')
 #select the form to choose the auditor race
 formcount=0
 for frm in br.forms():  
-  if str(frm.attrs["id"])=="Form1":
-    break
-  formcount=formcount+1
+    if str(frm.attrs["id"])=="Form1":
+        break
+    formcount=formcount+1
 br.select_form(nr=formcount)
 
 #find the drop down menu and value
@@ -42,11 +42,11 @@ main_table = soup.find('table',
 
 #get the table headers
 for row in main_table.find_all('tr'):
-	data1 = [cell.text for cell in row.find_all('th')]
-	writer.writerow(data1)
-	break
+    data1 = [cell.text for cell in row.find_all('th')]
+    writer.writerow(data1)
+    break
 
 #get the data from each row of the table
 for row in main_table.find_all('tr'):
-    	data = [cell.text for cell in row.find_all('td')]
-	writer.writerow(data)
+    data = [cell.text for cell in row.find_all('td')]
+    writer.writerow(data)
