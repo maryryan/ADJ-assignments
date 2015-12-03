@@ -1,0 +1,21 @@
+Command procedure to turn all PDFs into text files and then combine into one large text file:
+
+    pdftotext cm15_aug17.pdf
+    pdftotext cm15_nov2.pdf
+    pdftotext cm15_oct5.pdf
+    pdftotext cm15_sept8.pdf
+    pdftotext cm15_sept21.pdf
+
+    cat cm15_aug17.txt cm15_nov2.txt cm15_oct5.txt cm15_sept8.txt cm15_sept21.txt > all_text.txt
+
+Search terms used within the combined text file:
+    race (30 hits)
+    racial (10 hits)
+    racism (8 hits)
+    prejudice (2 hits)
+    Black (16 hits; 12 referring to race, 4 to trash bags or last names)
+    African (6 hits)
+
+Summary: The Columbia City Council has discussed the issue of race several times over the period from August to November 2015. Much of this revolved around a shift in policing tactics within Columbia Police Department. In the final recommendation report from the Mayor' Task Force on Community Violence last year, it recommended that CPD shift to community policing rather than call response; some members of the community spoke out in the community comment session about how this recommendation had yet to be implimented. These citizen felt like this was an intrigal part of mending what they called the "trust gap" between the African-American community and CPD, and would lead to a decrease in racial profiling. Citizens also called for more funding for the CPD outreach team, as they said that it would be difficult to mend racial relations with the department with just the two officers currently assigned to the outreach team. Finally, citizen brought up that CPD should be funded for cultural competency training to help with this shift to community policing.
+
+There was also discussion in September about the building of the CVS. Some brought up that bringing this business into an Ward that is much poorer and has higher unemployment (particularly among the Black community members) compared with surrounding wards would help fix some of these community inequity gaps.
